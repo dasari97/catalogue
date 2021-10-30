@@ -6,4 +6,5 @@ module "catalogue" {
     instance_type = var.instance_type
     component   = "catalogue"
     port        = 8080
+    is_internal = "true"
 }
