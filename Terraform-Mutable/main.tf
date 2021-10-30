@@ -7,4 +7,5 @@ module "catalogue" {
     component   = "catalogue"
     port        = 8080
     is_internal = "true"
+    priority    = 100
 }
