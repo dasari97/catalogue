@@ -5,4 +5,5 @@ module "catalogue" {
     od_ins = var.od_ins
     instance_type = var.instance_type
     component   = "catalogue"
+    port        = 8080
 }
