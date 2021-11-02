@@ -8,4 +8,5 @@ module "catalogue" {
     port        = 8080
     is_internal = "true"
     priority    = 100
+    APP_VERSION = var.APP_VERSION
 }
