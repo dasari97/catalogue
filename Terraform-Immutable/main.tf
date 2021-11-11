@@ -5,7 +5,7 @@ module "catalogue" {
     component   = "catalogue"
     port        = 8080
     is_internal = "true"
-    priority    = 200
+    priority    = 100
     APP_VERSION = var.APP_VERSION
     max_size    = var.max_size
     min_size    = var.min_size
