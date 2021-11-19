@@ -17,7 +17,7 @@ variables:
   COMPONENT: catalogue
     
 stages: 
-- template: "codecheck.yml@azureCI"
-- template: "codeTest.yml@azureCI"
-- template: "nodejs-az.yml@azureCI"
-  
+#- template: "codecheck.yml@azureCI"
+#- template: "codeTest.yml@azureCI"
+#- template: "nodejs-az.yml@azureCI"
+- template: "docker.yml@azureCI"  
